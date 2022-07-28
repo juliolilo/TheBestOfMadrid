@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url("madrid-3952068_1920.jpg");
+    
+    background-repeat: no-repeat;
+    background-size:100vmax;
+    background-position-y: -200px;
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+    background-color: snow;
+    box-sizing: border-box;
+    margin: 0;
+    /*padding: 0;*/
+    
+}
+
+
+
+.menu{
+  width: 100%;
+  /*background-color: white;*/
+  background: hsla(206, 30%, 95%, 1);
+
+  background: linear-gradient(180deg, hsla(206, 30%, 95%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+  
+  background: -moz-linear-gradient(180deg, hsla(206, 30%, 95%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+  
+  background: -webkit-linear-gradient(180deg, hsla(206, 30%, 95%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", endColorstr="#83D0CB", GradientType=1 );
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  display: flex;
+  margin-top: -90px;
+ 
+}
+
+.imagen{
+  display: inline-block;
+  
+}
+
+
+
+
+nav{
+    width: 100%;
+    margin-top: 0;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+
+
+
+nav ul{
+    list-style: none;
+    margin-top: 0;
+    margin-left: 100px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+
+nav ul li{
+    
+    
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    font-size: 17px;
+    text-align: right;
+    
+    
+
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration:none;
+
+    
+}
+
+
+nav ul li a:hover{
+
+    background-color:lightblue;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
+}
+
+
+
+img{
+    
+  width: 200px;
+  
+  padding: 8px;
+}
+
+
+.resultado{
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+
+.redes-sociales{
+
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+
+.instagram{
+
+    max-width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+.youtube{
+
+    max-width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.tripadvisor{
+  max-width: 75px;
+  height: auto;
+  margin-left: 50px;
+
+}
+
+
+.contenedor-principal{
+    position: relative;
+    top: 35px;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid white;
+    width: 40%;
+    height: 570px;
+    margin: 0 auto;
+    
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+
+.contenedor-principal p{
+
+    text-align: center;
+    padding-top: 20px;
+    /*margin: 40px;*/
+    font-size: 30px;
+    color: cornsilk;
+}
+
+
+
+.formulario-inputs{
+    height: 40px;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-top: 5px solid blue;
+    background-color:aliceblue;
+}
+
+.formulario-inputs:focus{
+    background-color:lightblue;
+}
+
+.formulario-inputs::placeholder{
+
+    padding-left: 10px;
+}
+
+.mensaje{
+    height: 100px;
+    width: 500px;
+
+    
+}
+
+.enviar{
+    background-color:dodgerblue ;
+    border-top: none;
+
+
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.red:hover{
+    transform: scale(1.1);
+}
+
+
+   
+    
+   
