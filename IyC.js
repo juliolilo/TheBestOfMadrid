@@ -7,10 +7,15 @@ const submit= document.getElementById("submit");
 
 
 const resultado = document.querySelector(".resultado");
+var imagen = document.querySelector(".imagen");
+imagen.addEventListener("click", () =>{
+    
+    window.open('MiIndex.html');
+});
 
-
+/*
 submit.addEventListener("click", (e)=>{
-    /*alert("hola");*/
+    
     e.preventDefault();
 
     let error = validarCampos();  
@@ -52,4 +57,4 @@ const validarCampos= ()=>{
 
     }
     
-}
+}*/

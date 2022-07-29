@@ -15,7 +15,7 @@
 
 body{
     
-    background-image: url("madrid-3952068_1920.jpg");
+    background-image: url("imagenes/madrid-3952068_1920.jpg");
     
     background-repeat: no-repeat;
     background-size:100vmax;
@@ -190,7 +190,7 @@ img{
     margin-top: 30px;
     font-size: 20px;
     border-radius: 5px;
-    border-top: 5px solid blue;
+    outline: none;
     background-color:aliceblue;
 }
 
@@ -212,7 +212,8 @@ img{
 
 .enviar{
     background-color:dodgerblue ;
-    border-top: none;
+    border: 2px solid green;
+    cursor: pointer;
 
 
 }
