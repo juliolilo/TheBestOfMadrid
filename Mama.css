@@ -1,3 +1,11 @@
+/* 1. Color de fondo
+   2. Enlace a las visitas guiadas
+   3. Traducción a otros idiomas*/
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +14,7 @@
 
 body{
     padding-top: 90px;
-    background-color:#fff;
+    background-color:bisque;
     box-sizing: border-box;
     margin: 0;
     /*padding: 0;*/
@@ -27,7 +35,7 @@ background: -moz-linear-gradient(180deg, hsla(206, 30%, 95%, 1) 0%, hsla(176, 45
 background: -webkit-linear-gradient(180deg, hsla(206, 30%, 95%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", endColorstr="#83D0CB", GradientType=1 );
-    box-shadow: 0 4px 20px ;
+    box-shadow: 0 1px 10px ;
 
     position: fixed;
     z-index: 100;
@@ -40,10 +48,17 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", en
 
 
 .titulo-texto{
-    margin: 50px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
     
     font-size: 40px;
     text-align: center;
+    color:darkturquoise;
+    text-shadow: 4px 0 4px black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
     
 }
 
@@ -64,7 +79,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", en
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color:white;
+    background-color:bisque;
     flex-wrap: wrap;
 
 }
@@ -76,14 +91,15 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", en
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color:white;
+    
     text-align: center;
     
 }
 
 
 .iconos{
-    display: flex;
+    display: inline-block;
+    position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -223,15 +239,18 @@ img{
 
 .contenedor-abajo{
     height: 250px;
-    background-color:#fff;
+    width: 100%;
+    background-color:bisque;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .abajo{
-    width: 100%;
-    margin: 20px;
+    width: 400px;
+    margin: 10px;
     background-color:cadetblue;
     border-radius: 10px  ;
     border-color:  blue;
@@ -298,3 +317,9 @@ img{
 }
 
 
+.img-recta{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+}
