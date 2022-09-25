@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&family=Nunito+Sans:wght@600&family=Poppins:wght@400;600;800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -320,7 +322,7 @@ nav ul li a:hover{
   display: block;
   flex-wrap: wrap;
   align-items: center;
-  height: 600px;
+  height: 650px;
   /*background-color: beige;*/
   
 
@@ -330,10 +332,13 @@ nav ul li a:hover{
 .titulo-ventajas{
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255,29,142);
 }
 
 .texto-ventajas{
   margin: 10px;
+  font-size: 19px;
+  line-height: 25px;
 }
 
 .ventajas{
@@ -349,18 +354,33 @@ nav ul li a:hover{
   padding-top: 20px;
   background-color:seashell;
   border-radius: 20px;
-  transition-duration: 2s;
+  transition-duration: 1.5s;
 }
 
 .ventaja1{
   position: relative;
-  left: -22%;
+  left: -30%;
+  opacity: 0.3;
+  transition-duration: 2.5s;
+
+}
+
+.transform{
+  
+  transform: translateX(17%);
+}
+
+.transform2{
+  transform: translateX(-17%);
+
 }
 
 
 .ventaja2{
   position: relative;
-  left: 22%;
+  left: 30%;
+  opacity: 0.3;
+  transition-duration: 2.5s;
 }
 
 /*.ventaja1:hover {
@@ -369,13 +389,19 @@ nav ul li a:hover{
 }*/
 .ventaja3{
   position: relative;
-  left: -22%;
+  left: -30%;
+  opacity: 0.3;
+  transition-duration: 2.5s;
 }
 .ventaja4{
   position: relative;
-  left: 22%;
+  left: 30%;
+  opacity: 0.3;
 }
 
+.aparece{
+  opacity: 1;
+}
 
 
 
@@ -463,13 +489,21 @@ img{
 .red:hover{
   transform: scale(1.1);
 }
-
+.titulo-banderas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
 
 .contenedor-banderas{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 0;
 }
 .bandera{
   width: 100px;
@@ -502,7 +536,16 @@ img{
 }
 
 @keyframes mover {
-  0%{
-    transform: translate(100%);
+  
+  from{
+    /*transform: translate(100px);*/
+    /*transform: translate(350px,0);*/
+    left: -100%;
   }
+  to{
+    /*transform: translate(200px);*/
+    left: -22%;
+  }
+
+  
 }
