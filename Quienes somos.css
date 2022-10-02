@@ -56,7 +56,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F4F7", en
 }
 .img-recta{
   width: 100%;
-  height: 635px;
+  height: 91vh;
   object-fit: cover;
   margin: 0;
   padding: 0;

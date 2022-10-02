@@ -4,9 +4,8 @@
 
 
 
-
-
-*{
+    
+   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -392,7 +391,7 @@ img{
 
 .img-recta{
     width: 100%;
-    height: 635px;
+    height: 91vh;
     object-fit: cover;
     margin: 0;
     padding: 0;
@@ -410,3 +409,417 @@ img{
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+/* CAROUSEL */
+
+
+
+
+main section {
+    width: 90%;
+    height: 80vh;
+    padding: 4rem 0;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+  main section .carousel-container {
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.375rem;
+  }
+  main section .carousel-container .item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    animation: fade 0.3s ease-in-out;
+  }
+  main section .carousel-container .item .numbertext {
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 0.9375rem;
+    font-size: 0.875rem;
+    color:cadetblue;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  main section .carousel-container .item .image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  main section .carousel-container .item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main section .carousel-container .item .text {
+    width: 100%;
+    padding: 0.625rem 0.9375rem;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.9rem;
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  main section .carousel-container .item .text .title {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  main section .carousel-container .prev,
+  main section .carousel-container .next {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3125rem;
+    position: absolute;
+    top: calc(50% - 1rem);
+    user-select: none;
+    font-size: 1rem;
+    background-color: #fff;
+    color:blueviolet;
+    border-radius: 50%;
+    transition: 0.6s ease;
+  }
+  main section .carousel-container .prev:focus, main section .carousel-container .prev:hover,
+  main section .carousel-container .next:focus,
+  main section .carousel-container .next:hover {
+    background-color:burlywood
+  }
+  main section .carousel-container .prev {
+    left: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main section .carousel-container .next {
+    right: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main section .carousel-container .dots {
+    padding: 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main section .carousel-container .dots .dot {
+    width: 0.625rem;
+    height: 0.625rem;
+    margin: 0 0.125rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #bbb;
+    transition: background-color 0.6s ease;
+  }
+  main section .carousel-container .dots .dot:focus, main section .carousel-container .dots .dot:hover {
+    background-color: #717171;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Agregado*/
+
+  .contenedor-abajo1{
+    display: flex;
+    /*background-color:rgb(60, 60, 60) ;*/
+    border-radius: 10px;
+    height: 420px;
+    /*background-color: beige;*/
+  }
+  
+  .contenedor-texto-principal{
+    display: flex;
+    text-align: center;
+    
+    padding-top: 1%;
+    width: 50%;
+    /*background-color: darkgreen;*/
+    
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    
+  }
+  
+  
+  
+  
+  
+  .texto-principal{
+    line-height: 40px;
+    font-size: 20px;
+  }
+  
+  .contenedor-laSumaDeTodos{
+    width: 50%;
+    
+    display: flex;
+    
+    
+    background-color: blue;
+    height: 500px;
+  
+  }
+  
+  .laSumaDeTodos{
+  
+    width: 100%;
+    object-fit: cover;
+    
+    
+    
+  }
+  
+  
+  .contenedor-ventajas{
+    
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 650px;
+    /*background-color: beige;*/
+    
+  
+  }
+  
+  
+  .titulo-ventajas{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255,29,142);
+  }
+  
+  .texto-ventajas{
+    margin: 10px;
+    font-size: 19px;
+    line-height: 25px;
+  }
+  
+  .ventajas{
+    justify-self: center;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 19px;
+    border: 3px solid;
+    border-color:blue;
+    width: 700px;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
+    background-color:seashell;
+    border-radius: 20px;
+    transition-duration: 1.5s;
+  }
+  
+  .ventaja1{
+    position: relative;
+    left: -30%;
+    opacity: 0.3;
+    transition-duration: 2.5s;
+  
+  }
+  
+  .transform{
+    
+    transform: translateX(17%);
+  }
+  
+  .transform2{
+    transform: translateX(-17%);
+  
+  }
+  
+  
+  .ventaja2{
+    position: relative;
+    left: 30%;
+    opacity: 0.3;
+    transition-duration: 2.5s;
+  }
+  
+  /*.ventaja1:hover {
+    background-color: blueviolet;
+    left: -200%;
+  }*/
+  .ventaja3{
+    position: relative;
+    left: -30%;
+    opacity: 0.3;
+    transition-duration: 2.5s;
+  }
+  .ventaja4{
+    position: relative;
+    left: 30%;
+    opacity: 0.3;
+  }
+  
+  .aparece{
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .P-div{
+      
+      
+  }
+  
+  
+  
+  
+  .titulo-imagen{
+    color: rgb(255,29,142) ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  img{
+      
+    width: 200px;
+    
+    padding: 8px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .redes-sociales{
+  
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    
+  }
+  
+  .instagram{
+  
+    max-width: 40px;
+    height: auto;
+    margin-left: 15px;
+  }
+  .youtube{
+  
+    max-width: 40px;
+    height: auto;
+    margin-left: 15px;
+  }
+  
+  .tripadvisor{
+    max-width: 65px;
+    height: auto;
+    margin-left: 15px;
+  
+  }
+  
+  .red:hover{
+    transform: scale(1.1);
+  }
+  .titulo-banderas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+  
+  .contenedor-banderas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .bandera{
+    width: 100px;
+    margin: 75px;
+    margin-bottom: 10px;
+  }
+  
+  .encima-bandera{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .texto-bandera{
+    text-align: center;
+    opacity: 0;
+    transition-duration: 1s;
+  }
+  
+  .bandera:hover ~ .texto-bandera{
+    opacity: 1;
+  }
+  
+  .bandera-españa{
+    width: 120px;
+    margin: 75px;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes mover {
+    
+    from{
+      /*transform: translate(100px);*/
+      /*transform: translate(350px,0);*/
+      left: -100%;
+    }
+    to{
+      /*transform: translate(200px);*/
+      left: -22%;
+    }
+  
+    
+  }
+
+  
