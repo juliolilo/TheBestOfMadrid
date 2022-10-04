@@ -2,7 +2,8 @@
    2. Enlace a las visitas guiadas
    3. Traducción a otros idiomas*/
 
-
+   
+   @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');   
 
     
    *{
@@ -150,10 +151,12 @@ border-bottom: 3px solid /*rgb(255,105,180)*/  rgb(255,29,142);
 
 
 nav{
+    
     width: 100%;
     margin-top: 0;
-    display: inline-block;
+    margin: 0 auto;
     text-align: center;
+    
     
 }
 
@@ -169,6 +172,7 @@ nav ul{
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -189,12 +193,14 @@ nav ul li a{
     padding: 20px;
     text-decoration:none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 61, 137);
+    font-weight: 600;
     
 }
 
 nav ul li a:hover{
 
-    color:mediumspringgreen;
+    color:white;
     background-color: rgb(0,127,255);
   border-radius: 5px;
   box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
@@ -537,34 +543,34 @@ main section {
 
   .contenedor-abajo1{
     display: flex;
+    
+    width: 100%;
     /*background-color:rgb(60, 60, 60) ;*/
     border-radius: 10px;
     height: 420px;
+    align-items: center;
+    
+    justify-content: center;
     /*background-color: beige;*/
   }
   
   .contenedor-texto-principal{
     display: flex;
     text-align: center;
-    
+    font-family: fenix;
     padding-top: 1%;
-    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    font-family: 'Lora', serif;
     /*background-color: darkgreen;*/
-    
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
-    
-    
+    margin-top: 0;
+
   }
   
-  
-  
-  
-  
   .texto-principal{
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 50px;
+    font-size: 22px;
   }
   
   .contenedor-laSumaDeTodos{
@@ -765,7 +771,7 @@ main section {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 0;
     font-size: 30px;
     text-transform: uppercase;
     font-family: Montserrat;

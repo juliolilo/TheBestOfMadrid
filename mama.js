@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     carousel.querySelectorAll(".item")[item].previousElementSibling != null
       ? showItems(carousel, item - 1)
       : showItems(carousel, carousel.querySelectorAll(".item").length - 1);
-  }
+  }    
   
   function currentItem(carousel) {
     return [...carousel.querySelectorAll(".item")].findIndex(

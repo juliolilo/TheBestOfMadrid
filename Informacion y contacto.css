@@ -81,6 +81,7 @@ nav ul{
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -101,7 +102,7 @@ nav ul li a{
     padding: 20px;
     text-decoration:none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    color:blue;
 }
 
 nav ul li a:hover{
