@@ -172,7 +172,7 @@ nav ul{
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
 
@@ -610,13 +610,16 @@ main section {
   .titulo-ventajas{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255,29,142);
+    /*color: rgb(255,29,142);*/
+    color: rgb(0,191,255);
   }
   
   .texto-ventajas{
     margin: 10px;
     font-size: 19px;
     line-height: 25px;
+    font-family: 'Lora', serif;
+
   }
   
   .ventajas{
@@ -625,12 +628,14 @@ main section {
     text-align: center;
     font-size: 19px;
     border: 3px solid;
-    border-color:blue;
+    /*border-color:blue;*/
+    border-color: rgb(255,29,142);;
     width: 700px;
     height: 120px;
     text-align: center;
     padding-top: 20px;
-    background-color:seashell;
+    /*background-color:seashell;*/
+    background-color: #FFFFFF;
     border-radius: 20px;
     transition-duration: 1.5s;
   }
